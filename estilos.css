@@ -1,0 +1,237 @@
+*{
+  margin:0px;
+  font-family: 'arial';
+ }
+ 
+.cabecera {
+         width:100%;
+         height:180px;
+          background:linear-gradient(to right, #FDCDF4, #CDFDF7);
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+         }
+
+.cabecera img{
+              width:220px;
+              height:auto;
+              } 
+
+.buscador{
+     width:100%;
+     height:30px;
+     background:linear-gradient(to right, #FDCDF4, #CDFDF7);
+     font-family:arial;
+     }
+
+.buscador ul{
+            width:100%;
+            margin: auto;
+            padding:0px;
+            margin: 0px;
+            height:30px;
+            display:flex;
+            list-style:none;
+            justify-content: space-between;
+          align-items: center;
+          align-content: center;
+            }
+
+.buscador li{
+          display:flex;
+          height: 100%;
+          padding: 5px;
+             flex-grow: 1;
+             justify-content: center;
+             transition: all 0.3s;
+             cursor: pointer;
+             align-items: center;
+            }
+li:hover{
+         background-color: #dcb4d5;
+         }
+
+.buscador a{
+               text-decoration:none;
+               color:black;
+               font-size:16px;
+               text-align: center;
+               width: 100%;
+               }
+
+.contenido img{
+               width:100%;
+               height:2000px;
+               }
+
+.eslogan img{
+            width:100%;
+            height:250px;
+            }
+
+.container{
+     width: 35%;
+     /* background-image: url(./remove.png); */
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     opacity: 1;
+     padding: 25px 35px;
+
+}
+
+.swiper-container {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+    padding: auto;
+   }
+   
+   .swiper-slide {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .swiper-slide img {
+     width: 100%;
+     margin: auto;
+     height: 500px;
+     object-fit: fill;
+     border-radius: 60px 0px 60px 0px;
+   }
+
+.swiper-button-prev{
+  left: 1% !important;
+  top:50% !important;
+  background-color: #1d1d1db9;
+  border-radius: 100%;
+  padding: 10px 17px;
+  width: 200px;
+  color: rgb(255, 255, 255);
+}
+
+.swiper-button-next{
+  right: 1% !important;
+  top:50% !important;
+  background-color: #1d1d1db9;
+  border-radius: 100%;
+  padding: 10px 17px;
+  width: 200px;
+  color: rgb(255, 255, 255);
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+  color: white !important;
+}
+
+.inicio{
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  font-weight: 500;
+  font-size: 25px;
+  height: 500px;
+  z-index: 1; /* Asegúrate de que el contenido esté encima del pseudo-elemento */
+  text-align: center; /* Centra el texto horizontalmente */
+  flex-direction: column;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./imagenes/logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+/* Asegúrate de que el contenido de .banner esté en el contexto de posición relativa */
+.banner * {
+  position: relative;
+  z-index: 2; /* Asegúrate de que el contenido esté por encima del pseudo-elemento */
+ 
+}
+
+
+.footer{
+  width: 100%;
+  background:linear-gradient(to right, #FDCDF4, #CDFDF7);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer img{
+  width: 100px;
+  height: auto;
+}
+
+.derechos { 
+  width: 100%;
+  margin: 5px 0px;
+
+}
+
+.buttonsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.buttonsContainer button{
+  margin: 0px 10px;
+  padding: 5px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 0px #000000;
+}
+
+.imagenes{
+  display: flex;
+  justify-content: left;
+}
+
+.COMBOS Y PROMOS{
+  background-color: #4aa7e1;
+  color: white ;
+}
+
+.COMBOS Y PROMOS:hover{
+  background-color: #2d8cc7;
+  color: white;
+}
+
+.promociones{
+  background-color: #dba4d1;
+  color: white;
+}
+
+.promociones:hover{
+  background-color: #c993be;
+}

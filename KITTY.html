@@ -1,0 +1,107 @@
+<DOCTYPE! html>
+  <html>
+
+  <head>
+    <title>KITTY SNACK´S</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  </head>
+
+  <body>
+    <header class="cabecera">
+      <img src="cabecera2.png"></img>
+    </header>
+    <nav class="buscador">
+      <ul>
+        <li style="background-color: #CDFDF7;"><a href="/KITTY.html">INICIO</a></li>
+        <li><a href="./pages/mision.html">MENU</a></li>
+        <li><a href="./pages/COMBOS Y PROMOS.html">COMBOS Y PROMOS</a></li>
+        <li><a href="./pages/vision.html">MISIÓN Y VISIÓN</a></li>
+        <li><a href="/pages/conocenos.html">CONOCENOS</a></li>
+        <li><a href="/pages/promociones.html">ICON</a></li>
+      </ul>
+    </nav>
+
+
+    <div class="inicio">
+
+
+      <div class="banner">
+        <p class=""> En Kitty snacks, estamos listos para consentirte con los mejores antojitos. Aquí encontrarás una explosión
+          de sabores que te hará regresar por más.
+        </p>
+        <div class="buttonsContainer">
+        <button class="COMBOS Y PROMOS">COMBOS Y PROMOS</button>
+        <button class="promociones">Promociones</button>
+      </div>
+      </div>
+
+      <div class="container">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><img src="/imagenes/img1.jpeg" alt="Imagen 1"></div>
+            <div class="swiper-slide"><img src="/imagenes/img2.jpeg" alt="Imagen 2"></div>
+            <div class="swiper-slide"><img src="/imagenes/img3.jpeg" alt="Imagen 3"></div>
+            <!-- Añade más slides según sea necesario -->
+          </div>
+          <!-- Paginación -->
+          <div class="swiper-pagination"></div>
+          <!-- Botones de navegación -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+
+     
+      
+    </div>
+
+    <footer class="footer">
+      <div class="contacto">
+        <h3>Contacto</h3>
+        <p>Teléfono: 123-456-789</p>
+        <p>Email: info@kittysnacks.com</p>
+        <p>Dirección: Calle Principal, Ciudad</p>
+      </div>
+      
+      <div class="imagenes">
+        <img src="/imagenes/logo1.png" alt="Logo 1">
+        <img src="/imagenes/logo2.png" alt="Logo 2">
+        <img src="/imagenes/logo3.png" alt="Logo 3">
+      </div>
+        <p class="derechos">Todos los derechos reservados &copy; 2022</p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper-container', {
+        // Parámetros de Swiper
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      });
+
+      var myWave = wavify( document.querySelector('#myId'), {
+  height: 60,
+  bones: 3,
+  amplitude: 40,
+  color: 'rgba(150, 97, 255, .8)',
+  speed: .25
+})
+    </script>
+    </div>
+  </body>
+
+  </html>
