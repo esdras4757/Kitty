@@ -268,6 +268,7 @@ li:hover {
 /* Estilos de la sección de FAQ */
 #faq {
   background-color: #e7f3f7;
+  margin-bottom: 80px;
 }
 
 #faq .faq-item {
@@ -318,7 +319,7 @@ li:hover {
 
 .locationContainer {
   width: 85%;
-  margin: 50px auto;
+  margin: 100px auto;
   display: flex;
   align-items: center;
   align-content: center;
@@ -326,7 +327,7 @@ li:hover {
 }
 
 .locationContainer img {
-  width: 800px;
+  width: 750px;
   border-radius: 20px;
   border: 5px solid #dcb4d5;
   object-fit: cover;
@@ -353,9 +354,13 @@ button a {
 
 .backgroun1 {
   background-color: #284044;
-  min-height: 100vh;
+  min-height: 150vh;
   width: 600px;
   border-radius: 0px 600px 600px 0px;
+  position: absolute;
+    top: 50%;
+  left: 0%;
+  transform: translate(-20%, -50%);
 }
 
 .backgroun2 {
@@ -370,15 +375,38 @@ button a {
   background-color: #ffffffb6;
   border-radius: 40px;
   cursor: pointer;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.card h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card p, .card ul, .card li{
+  text-align: left;
+}
+
+.ingredientes{
+  margin: 15px;
+}
+
+.card img{
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  margin: 15px;
 }
 
 .cardContainer {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-32%, -50%);
+  transform: translate(15%, -50%);
   display: flex;
   column-gap: 60px;
+  overflow: scroll;
 }
 
 .description {
@@ -395,4 +423,39 @@ button a {
 .description h2{
   text-align: center;
   text-transform: uppercase;
+}
+
+.visionContainer{
+  display: flex;
+
+}
+
+.mision{
+  width: 50%;
+  padding: 20px 30px;
+}
+
+.vision{
+  background-color: blue;
+  width: 50%;
+}
+
+.visionContainer .title{
+  text-transform: uppercase;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  width: 400px;
+  margin: auto;
+  padding: 10px 15px;
+}
+
+.nota{
+  background-image: url(./imagenes/note.PNG);
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px auto;
 }
