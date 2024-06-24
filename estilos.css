@@ -45,15 +45,13 @@
 
 .buscador li {
   display: flex;
-  height: 100%;
-  padding-top: 15px;
   align-items: center;
   align-content: center;
-  flex-grow: 1;
   justify-content: center;
   transition: all 0.3s;
   cursor: pointer;
   align-items: center;
+  height: auto;
 }
 
 li:hover {
@@ -66,7 +64,8 @@ li:hover {
   font-size: 16px;
   text-align: center;
   width: 100%;
-  margin: 10px 20px;
+  padding: 10px 20px;
+  padding-top: 30px;
 }
 
 .contenido img {
@@ -352,16 +351,7 @@ button a {
   color: white;
 }
 
-.backgroun1 {
-  background-color: #284044;
-  min-height: 150vh;
-  width: 600px;
-  border-radius: 0px 600px 600px 0px;
-  position: absolute;
-    top: 50%;
-  left: 0%;
-  transform: translate(-20%, -50%);
-}
+
 
 .backgroun2 {
   background-color: #FDCDF4;
@@ -369,7 +359,7 @@ button a {
 }
 
 .card {
-  width: 350px;
+  width: 27%;
   height: 450px;
   z-index: 5;
   background-color: #ffffffb6;
@@ -400,13 +390,13 @@ button a {
 }
 
 .cardContainer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(15%, -50%);
+  flex-wrap: wrap;
   display: flex;
-  column-gap: 60px;
-  overflow: scroll;
+  gap: 60px;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  overflow: auto;
 }
 
 .description {
@@ -433,6 +423,7 @@ button a {
 .mision{
   width: 50%;
   padding: 20px 30px;
+  text-align: center;
 }
 
 .vision{
@@ -451,11 +442,154 @@ button a {
 }
 
 .nota{
-  background-image: url(./imagenes/note.PNG);
-  height: 600px;
+  text-align: center;
   width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 0px auto;
+}
+
+
+.images{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.titleMenu{
+  font-size: 50px;
+  color: #000000;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.ConocenosContainer{
+  min-height: calc(100vh - 700px);
+}
+
+.textAreaContainer{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.botonEnviar{
+  padding: 10px 15px ;
+  font-size: 15px;
+  margin: auto;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.botonEnviar:active{
+  background-color: rgb(1, 78, 1);
+}
+
+
+/* ////////////////////////////////// */
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.combos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.combos-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.combo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.combo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.combo-info {
+  flex: 1;
+}
+
+.combo-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.combo-desc {
+  margin: 0 0 10px;
+}
+
+.combo-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.combo-link:hover {
+  text-decoration: underline;
+}
+
+.contacto {
+  margin-bottom: 20px;
+}
+
+.contacto h3 {
+  margin-top: 0;
+}
+
+.imagenes img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.derechos {
+  margin-top: 10px;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 40px;
+}
+
+.content i{
+  font-size: 30px;
+}
+
+.promocontainer{
+  border: 1px solid black;
+  padding: 40px 60px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+  background: linear-gradient(to right, #FDCDF4, #CDFDF7);
+}
+
+.promocontainer p{
+  font-size: 60px;
 }
