@@ -21,7 +21,7 @@ body{
 }
 
 .cabecera img {
-  width: 200px;
+  width: 250px;
   height: auto;
   margin-top: -50px;
 }
@@ -84,7 +84,7 @@ li:hover {
   height: 250px;
 }
 
-.container {
+.container2 {
   width: 35%;
   /* background-image: url(./remove.png); */
   background-repeat: no-repeat;
