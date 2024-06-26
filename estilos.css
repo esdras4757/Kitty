@@ -595,10 +595,6 @@ button a {
   min-height: calc(100vh - 700px);
 }
 
-.ConocenosContainer img {
-  position: absolute;
-  z-index: 400;
-}
 
 .personaje1{
 top: 400px;
