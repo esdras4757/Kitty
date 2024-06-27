@@ -389,20 +389,23 @@
   }
 
   .promocontainer{
+    position: relative;
     width: 80%;
-    border: 1px solid #21b8a6;
+    border: 1px solid #21b8a1;
     padding: 40px 20px;
     margin: auto;
     border-radius: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     display: flex;
     align-items: center;
+    background: linear-gradient(to right, #fbe5f7, #c7f8f1);
     justify-content: space-around;
   }
 
   .promocontainer p{
     font-weight: bold;
     font-size: 25px;
+    text-shadow: 0px 0px 3px rgb(103, 103, 103);
   }
 
   .hidenSection{
@@ -425,4 +428,25 @@
   font-weight: bold;
   font-size: 1.2em;
   margin-top: 10px;
+}
+
+.cabeza1{
+ position: absolute;
+ top: -50px;
+ left: -50px;
+}
+.cabeza2{
+  position: absolute;
+ top: -70px;
+ right: -50px;
+}
+.cabeza3{
+  position: absolute;
+  bottom: -40px;
+  left: -50px;
+}
+.cabeza4{
+  position: absolute;
+  bottom: -40px;
+  right: -50px;
 }
