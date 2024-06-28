@@ -1,0 +1,57 @@
+ .botonEnviar {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: auto;
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  
+  .botonEnviar:active {
+    background-color: rgb(1, 78, 1);
+  }
+  
+  
+  .titleMenu {
+    font-size: 50px;
+    color: #000000;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .personaje1 {
+    position: absolute;
+    top: -260px;
+    left: -100px;
+  }
+  
+  .personaje2 {
+    top: -210px;
+    position: absolute;
+    right: -100px;
+  }
+  
+  .personaje3 {
+    top: 180px;
+    position: absolute;
+    left: -100px;
+  }
+  
+  .personaje4 {
+    top: 180px;
+    position: absolute;
+    right: -100px;
+  }
+  
+  .textAreaContainer {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  

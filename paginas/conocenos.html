@@ -3,7 +3,8 @@
 
   <head>
     <title>KITTY SNACK´S</title>
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../Estilos/estilosConocenos.css">
+    <link rel="stylesheet" href="../Estilos/estilos.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -13,34 +14,45 @@
     <nav class="buscador">
       <ul>
         <li><a href="/KITTY.html">INICIO</a></li>
-        <li ><a href="/pages/menu.html">MENU</a></li>
-        <li><a href="/pages/combos.html">COMBOS Y PROMOS</a></li>
-        <li style="background-color: #CDFDF7;"><a href="/pages/vision.html">MISIÓN Y VISIÓN</a></li>
-        <li><a href="/pages/conocenos.html">CONOCENOS</a></li>
-        <li><a href="/pages/comentarios.html"><i style="font-size: 35px;" class="fa-regular fa-comment-dots"></i></a></li>
+        <li ><a href="/paginas/menu.html">MENU</a></li>
+        <li><a href="/paginas/combos.html">COMBOS Y PROMOS</a></li>
+        <li><a href="/paginas/vision.html">MISIÓN Y VISIÓN</a></li>
+        <li style="background-color: #CDFDF7;"><a href="/paginas/conocenos.html">CONOCENOS</a></li>
+        <li><a href="/paginas/comentarios.html"><i style="font-size: 35px;" class="fa-regular fa-comment-dots"></i></a></li>
       </ul>
     </nav>
     <header class="cabecera">
       <img src="../cabecera2.png"></img>
     </header>
 
-  <div class="visionContainer">
-   <div class="mision">
-      <img src="../imagenes/Recurso 2.png"/>
-      <img class="nota" src="../imagenes/postickRosa.png"/>
-   </div>
-   
-   <div class="mision">
-      <img src="../imagenes/Recurso 1.png"/>
-      <img class="nota" src="../imagenes/postickRosa2.png"/>
-   </div>
-  </div>
+  <div class="ConocenosContainer">
 
-  <div class="images">
-    <img style="width: 200px;" src="../imagenes/kittycinta.png" alt="">
-    <img style="width: 200px;" src="../imagenes/kuromi.png" alt="">
-    <img style="width: 200px;" src="../imagenes/cinnamoroll.png" alt="">
-    <img style="width: 200px;" src="../imagenes/melody.png" alt="">
+    <div class="horarios">
+      <h2> <i class="fa-solid fa-clock icon"></i>Horarios </h2>
+      <div class="badgeHorario"><h3>Viernes a Domingo <br> 17:00 hrs - 20:30 hrs</h3></div>
+    </div>
+
+
+    
+
+    <div class="ubicacion">
+      <h2><i class="fa-solid fa-location-dot icon"></i> Ubicación </h2>
+      <div class="badge"><h3>Centro, San Martín de las Pirámides</h3></div>
+      <img src="../imagenes/croquis.jpeg" width="400px" alt="">
+    </div>
+
+
+    <div class="redes">
+      <h2> <i class="fa-solid fa-hashtag icon"></i></i> Redes sociales </h2>
+      <div class="badgeRedes">
+      <div class="iconos">
+       <a href="https://www.tiktok.com/@kittysepo19"><i class="fa-brands fa-tiktok"></i> Kitty snack´s</a>
+       <a href="https://www.instagram.com/kittysnacks19/"> <i class="fa-brands fa-instagram"></i> Kitty snacks</a>
+       <a href="https://www.facebook.com/profile.php?id=61554100510319&mibextid=ZbWKwL"> <i class="fa-brands fa-facebook"></i>Kitty snacks</a>
+       <a href="https://api.whatsapp.com/send/?phone=5621530248"> <i class="fa-brands fa-whatsapp"></i>+52 56 2153 0248</a>
+     </div>
+    </div>
+     </div>
 
   </div>
 
@@ -90,34 +102,6 @@
 
     <p class="derechos">Todos los derechos reservados &copy; 2022</p>
   </footer>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper('.swiper-container', {
-        // Parámetros de Swiper
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-
-      var myWave = wavify(document.querySelector('#myId'), {
-        height: 60,
-        bones: 3,
-        amplitude: 40,
-        color: 'rgba(150, 97, 255, .8)',
-        speed: .25
-      })
-    </script>
     </div>
   </body>
 

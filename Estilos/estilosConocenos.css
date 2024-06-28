@@ -1,0 +1,108 @@
+
+
+
+.ConocenosContainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 150px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.ConocenosContainer h2{
+  font-size: 35px;
+  margin: 20px 0px;
+}
+
+
+
+.ConocenosContainer a{
+  width: fit-content;
+}
+
+
+.ConocenosContainer .iconos{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.ConocenosContainer i{
+  font-size: 60px;
+  list-style: none;
+  text-decoration: none;
+  margin: 20px auto;
+  margin-right: 20px;
+}
+
+.ConocenosContainer a{
+  font-size: 28px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.badge{
+  background-color: #f0a9e3;
+  color: red;
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 20px;
+  width: 300px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.badgeRedes{
+  background-color: #f0a9e3;
+  text-align: center;
+  padding: 40px 40px;
+  font-size: 20px;
+  width: 300px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: auto;
+  height: 400px;
+}
+
+.badgeHorario{
+  background-color: #a3fdf3;
+  color: #005f54;
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 20px;
+  font-weight: bolder;
+  margin: auto;
+}
+
+.redes{
+  text-align: center;
+}
+
+.redes .icon{
+  color: blue;
+}
+
+.ubicacion{
+  text-align: center;
+}
+
+.ubicacion .icon{
+  color: #db83cb;
+}
+
+
+.horarios{
+  width: 100%;
+  text-align: center;
+}
+.horarios .icon{
+  color: #72e4d6;
+}

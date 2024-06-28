@@ -1,206 +1,183 @@
-<DOCTYPE! html>
-  <html>
+<!DOCTYPE html>
+<html>
 
-  <head>
-    <title>KITTY SNACK´S</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<head>
+  <title>KITTY SNACK'S</title>
+  <link rel="stylesheet" href="./Estilos/estilos.css">
+  <link rel="stylesheet" href="./Estilos/estilosInicio.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 
-  </head>
+<body>
+  <nav class="buscador">
+    <ul>
+      <li style="background-color: #CDFDF7;"><a href="/KITTY.html">INICIO</a></li>
+      <li><a href="./paginas/menu.html">MENU</a></li>
+      <li><a href="./paginas/combos.html">COMBOS Y PROMOS</a></li>
+      <li><a href="./paginas/vision.html">MISIÓN Y VISIÓN</a></li>
+      <li><a href="/paginas/conocenos.html">CONOCENOS</a></li>
+      <li><a href="/paginas/comentarios.html"><i style="font-size: 35px;" class="fa-regular fa-comment-dots"></i></a></li>
+    </ul>
+  </nav>
+  <header class="cabecera">
+    <img src="cabecera2.png" alt="Cabecera">
+  </header>
 
-  <body>
-    <nav class="buscador">
+  <div class="sectionCharacteristics">
+    <div class="characteristicsContainer">
+      <i class="fa-solid fa-star"></i>
+      <div class="characteristics">
+        <h3>Calidad y Frescura</h3>
+        <p>Elaboramos nuestros productos diariamente con ingredientes frescos y de alta calidad para asegurar que disfrutes lo mejor en cada visita.</p>
+      </div>
+    </div>
+
+    <div class="characteristicsContainer">
+      <i class="fa-solid fa-users"></i>
+      <div class="characteristics">
+        <h3>Variedad para Todos los Gustos</h3>
+        <p>Desde lo dulce hasta lo salado, tenemos una amplia gama de opciones para satisfacer todos tus antojos. ¡Hay algo para cada gusto!</p>
+      </div>
+    </div>
+
+    <div class="characteristicsContainer">
+      <i class="fa-solid fa-lightbulb"></i>
+      <div class="characteristics">
+        <h3>Innovación y Creatividad</h3>
+        <p>Nos encanta crear nuevas y emocionantes combinaciones de sabores. Siempre encontrarás algo original y delicioso en nuestro menú.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="inicio">
+    <div class="banner">
+      <p>"Kitty Snacks" es una empresa que proporciona alimentos placenteros a un precio económico a sus consumidores, teniendo diferentes presentaciones considerando los distintos gustos.</p>
+      <div class="buttonsContainer">
+        <button class="menu"><a href="./paginas/menu.html">Menu</a></button>
+        <button class="promociones"><a href="./paginas/combos.html">Promociones</a></button>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/imagenes/img1.jpeg" alt="Imagen 1"></div>
+          <div class="swiper-slide"><img src="/imagenes/img2.jpeg" alt="Imagen 2"></div>
+          <div class="swiper-slide"><img src="/imagenes/img3.jpeg" alt="Imagen 3"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quienesSomos">
+    <img style="position: absolute; top: 0; left: 60%; z-index: -4; opacity: 0.2;" src="./imagenes/hands.png" width="500px" alt="">
+    <img class="locationimg" src="./imagenes/prepa.jpg" alt="Preparatoria">
+    <div class="locationInfo">
+      <h3>¿Quienes somos?</h3>
+      <p>"Kitty Snacks" surgió como un proyecto escolar perteneciente a la materia de economía donde se busca que los estudiantes logren ser capaces de entender como funcionan las Pymes, al igual que el flujo del mercado en México.</p>
+      <button class="promociones"><a href="./paginas/conocenos.html">Ver más</a></button>
+    </div>
+  </div>
+
+  <div id="faq" class="section">
+    <h2>Preguntas Frecuentes (FAQ)</h2>
+    <div class="faq-item">
+      <h3>¿Cuál es el horario de atención?</h3>
+      <p>Nuestro horario de atención es de 9 AM a 9 PM de lunes a sábado y de 10 AM a 6 PM los domingos.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Ofrecen servicio a domicilio?</h3>
+      <p>Por el momento no contamos con servicio a domicilio.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Los productos contienen alérgenos?</h3>
+      <p>Algunos de nuestros productos pueden contener alérgenos como nueces o gluten. Te recomendamos revisar las descripciones detalladas de cada producto en nuestra página web y contactarnos si tienes alguna preocupación específica.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Puedo personalizar mi pedido?</h3>
+      <p>Sí, ofrecemos opciones de personalización para algunos de nuestros productos. Puedes indicar tus preferencias al hacer tu pedido.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Tienen un programa de fidelidad?</h3>
+      <p>Sí, tenemos un programa de fidelidad donde puedes acumular puntos por cada compra y canjearlos por descuentos y productos gratuitos. Puedes inscribirte a través de nuestra página web o en cualquiera de nuestras redes sociales.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Dónde están ubicadas?</h3>
+      <p>Nuestra sucursal se encuentra en Cda Rosendo Arnaiz Manzana 003, San Martin Centro, 55850 San Martín de las Pirámides, Méx.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cómo puedo contactarlos?</h3>
+      <p>Puedes contactarnos por teléfono al +52 56 2153 0248, o por email a kitty-snacks@outlook.com, o a través de nuestra página web. También estamos disponibles en nuestras redes sociales.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="sitio">
+      <h3>Sitio</h3>
       <ul>
-        <li style="border-bottom: 4px solid #CDFDF7;"><a href="/KITTY.html">INICIO</a></li>
-        <li><a href="./pages/menu.html">MENU</a></li>
-        <li><a href="./pages/combos.html">COMBOS Y PROMOS</a></li>
-        <li><a href="./pages/vision.html">MISIÓN Y VISIÓN</a></li>
-        <li><a href="/pages/conocenos.html">CONOCENOS</a></li>
-        <li><a href="/pages/comentarios.html"><i style="font-size: 35px;" class="fa-regular fa-comment-dots"></i></a>
-        </li>
+        <a href="/KITTY.html">
+          <li>Inicio</li>
+        </a>
+        <a href="/paginas/menu.html">
+          <li>Menu</li>
+        </a>
+        <a href="/paginas/combos.html">
+          <li>Combos y promos</li>
+        </a>
+        <a href="/paginas/vision.html">
+          <li>Misión y Visión</li>
+        </a>
+        <a href="/paginas/conocenos.html">
+          <li>Conócenos</li>
+        </a>
+        <a href="/paginas/comentarios.html">
+          <li>Nos interesa saber tu opinión</li>
+        </a>
       </ul>
-    </nav>
-    <header class="cabecera">
-      <img src="cabecera2.png"></img>
-    </header>
+    </div>
 
-    <div class="sectionCharacteristics">
-      <div class="characteristicsContainer">
-        <i class="fa-solid fa-star"></i>
-        <div class="characteristics">
-          <h3>Calidad y Frescura</h3>
-          <P>Elaboramos nuestros productos diariamente con ingredientes frescos y de alta calidad para asegurar que
-            disfrutes lo mejor en cada visita.</P>
-        </div>
-      </div>
-
-      <div class="characteristicsContainer">
-        <i class="fa-solid fa-users"></i>
-        <div class="characteristics">
-          <h3>Variedad para Todos los Gustos</h3>
-          <P>Desde lo dulce hasta lo salado, tenemos una amplia gama de opciones para satisfacer todos tus antojos. ¡Hay
-            algo para cada gusto!</P>
-        </div>
-      </div>
-
-      <div class="characteristicsContainer">
-        <i class="fa-solid fa-lightbulb"></i>
-        <div class="characteristics">
-          <h3>Innovación y Creatividad</h3>
-          <P>Nos encanta crear nuevas y emocionantes combinaciones de sabores. Siempre encontrarás algo original y
-            delicioso en nuestro menú.</P>
-        </div>
+    <div class="siguenos">
+      <h3>Síguenos</h3>
+      <div class="imagenes">
+        <a href="https://www.tiktok.com/@kittysepo19"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/kittysnacks19/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61554100510319&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=5621530248"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     </div>
 
-    <div class="inicio">
-      <div class="banner">
-        <p class="">"Kitty Snacks" es una empresa que proporciona alimentos placenteros a un precio económico a sus consumidores, teniendo diferentes presentaciones considerando los distintos gustos.
-        </p>
-        <div class="buttonsContainer">
-          <button class="menu"> <a href="./pages/menu.html">Menu</a></button>
-          <button class="promociones"><a href="./pages/combos.html">Promociones</a></button>
-        </div>
-      </div>
-      <div class="container2">
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/imagenes/img1.jpeg" alt="Imagen 1"></div>
-            <div class="swiper-slide"><img src="/imagenes/img2.jpeg" alt="Imagen 2"></div>
-            <div class="swiper-slide"><img src="/imagenes/img3.jpeg" alt="Imagen 3"></div>
-            <!-- Añade más slides según sea necesario -->
-          </div>
-          <!-- Paginación -->
-          <div class="swiper-pagination"></div>
-          <!-- Botones de navegación -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-      </div>
+    <div class="contacto">
+      <h3>Contacto</h3>
+      <p>Teléfono: +52 56 2153 0248</p>
+      <p>Email: kitty-snacks@outlook.com</p>
+      <p>Dirección: Cda Rosendo Arnaiz Manzana 003, San Martin Centro, 55850 San Martín de las Pirámides, Méx.</p>
     </div>
 
+    <p class="derechos">Todos los derechos reservados &copy; 2022</p>
+  </footer>
 
-    <div class="locationContainer">
-      <img style="position: absolute; top: 0; right: -20px; z-index: -4; opacity: 0.2;" src="./imagenes/hands.png" width="500px"
-        alt="">
-      <img class="locationimg" src="./imagenes/prepa.jpg" alt="Preparatoria">
-      <div class="locationInfo">
-        <h3>¿Quienes somos?</h3>
-        <p>"Kitty Snacks" surgió como un proyecto escolar perteneciente a la materia de economía donde se busca que los estudiantes, logren ser capaces de entender como funcionan las Pymes, al igual que el flujo del mercado en México</p>
-        <button class="promociones"><a href="./pages/conocenos.html"> Ver mas</a></button>
-      </div>
-    </div>
-    <div id="faq" class="section">
-      <h2>Preguntas Frecuentes (FAQ)</h2>
-      <div class="faq-item">
-        <h3>¿Cuál es el horario de atención?</h3>
-        <p>Nuestro horario de atención es de 9 AM a 9 PM de lunes a sábado y de 10 AM a 6 PM los domingos.</p>
-      </div>
-      <div class="faq-item">
-        <h3>¿Ofrecen servicio a domicilio?</h3>
-        <p>Por el momento no contamos con servicio a domicilio.</p>
-      </div>
-      <div class="faq-item">
-        <h3>¿Los productos contienen alérgenos?</h3>
-        <p>Algunos de nuestros productos pueden contener alérgenos como nueces o gluten. Te recomendamos
-          revisar las descripciones detalladas de cada producto en nuestra página web y contactarnos si tienes alguna
-          preocupación específica.</p>
-      </div>
-      <div class="faq-item">
-        <h3>¿Puedo personalizar mi pedido?</h3>
-        <p>Sí, ofrecemos opciones de personalización para algunos de nuestros productos. Puedes indicar tus preferencias
-          al hacer tu pedido.</p>
-      </div>
-      <div class="faq-item">
-        <h3>¿Tienen un programa de fidelidad?</h3>
-        <p>Sí, tenemos un programa de fidelidad donde puedes acumular puntos por cada compra y canjearlos por descuentos
-          y productos gratuitos. Puedes inscribirte a través de nuestra página web o en cualquiera de nuestras
-          redes sociales.</p>
-      </div>
-      <div class="faq-item">
-        <h3>¿Dónde están ubicadas?</h3>
-        <p>Nuestra sucursal se encuentra en Cda Rosendo Arnaiz Manzana 003, San Martin Centro, 55850 San Martín de las
-          Pirámides, Méx.</p>
-      </div>
-      <div class="faq-item">
-        <h3>¿Cómo puedo contactarlos?</h3>
-        <p>Puedes contactarnos por teléfono al +52 56 2153 0248, o por email a kitty-snacks@outlook.com, o a través de
-          nuestra
-          página web. También estamos disponibles en nuestras redes sociales.</p>
-      </div>
-    </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
 
-    <footer class="footer">
-      <div class="sitio">
-        <h3>Sitio</h3>
-        <ul>
-          <a href="/KITTY.html">
-            <li>Inicio</li>
-          </a>
-          <a href="/pages/menu.html">
-            <li>Menu</li>
-          </a>
-          <a href="/pages/combos.html">
-            <li>Combos y promos</li>
-          </a>
-          <a href="/pages/vision.html">
-            <li>Misión y Visión</li>
-          </a>
-          <a href="/pages/conocenos.html">
-            <li>Conócenos</li>
-          </a>
-          <a href="/pages/comentarios.html">
-            <li>Nos interesa saber tu opinión</li>
-          </a>
-        </ul>
-      </div>
+</html>
 
-
-      <div class="siguenos">
-        <h3>Siguenos</h3>
-        <div class="imagenes">
-          <a href="https://www.tiktok.com/@kittysepo19"><i class="fa-brands fa-tiktok"></i></a>
-          <a href="https://www.instagram.com/kittysnacks19/"> <i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=61554100510319&mibextid=ZbWKwL"> <i class="fa-brands fa-facebook"></i></a>
-          <a href="https://api.whatsapp.com/send/?phone=5621530248"> <i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-      </div>
-
-      <div class="contacto">
-        <h3>Contacto</h3>
-        <p>Teléfono: +52 56 2153 0248</p>
-        <p>Email: kitty-snacks@outlook.com</p>
-        <p>Dirección: Cda Rosendo Arnaiz Manzana 003, San Martin Centro, 55850 San Martín de las Pirámides, Méx.</p>
-      </div>
-
-
-      <p class="derechos">Todos los derechos reservados &copy; 2022</p>
-    </footer>
-
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper('.swiper-container', {
-        // Parámetros de Swiper
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-
-    </script>
-    </div>
-  </body>
-
-  </html>
