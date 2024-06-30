@@ -114,6 +114,13 @@
     padding: 0px 5px;
     margin-bottom: -2px;
   }
+
+  .menuCont{
+    display: flex;
+    margin: 80px auto; 
+    width: 100%; 
+    justify-content: space-around;
+  }
   
   .buscador ul {
     width: fit-content;

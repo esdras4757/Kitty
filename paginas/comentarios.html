@@ -1,13 +1,9 @@
 <DOCTYPE! html>
   <html>
-
   <head>
     <title>KITTY SNACK´S</title>
     <link rel="stylesheet" href="../Estilos/estilos.css">
     <link rel="stylesheet" href="../Estilos/estilosComentarios.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
   </head>
 
   <body >
@@ -18,7 +14,7 @@
         <li><a href="./combos.html">COMBOS Y PROMOS</a></li>
         <li><a href="./vision.html">MISIÓN Y VISIÓN</a></li>
         <li><a href="./conocenos.html">CONOCENOS</a></li>
-        <li style="background-color: #CDFDF7;"><a href="./comentarios.html"><i style="font-size: 35px;" class="fa-regular fa-comment-dots"></i></a></li>
+        <li ><a class="comentarioIcono" href="./comentarios.html"><img class="active" src="../imagenes/comentario.png" width="30px"/></a></li>
       </ul>
     </nav>
     <header class="cabecera">
@@ -27,12 +23,12 @@
 
   <div class="ConocenosContainer">
    
-    <h2 class="titleMenu"> <i style="font-size: 80px; margin-bottom: 10px;" class="fa-regular fa-comment-dots"></i> <br> ¿Alguna recomendación?</h2>
+    <h2 class="titleMenu"><br> ¿Alguna recomendación?</h2>
     <div class="textareaContainer">
-      <img class="personaje1" src="../imagenes/personaje1.png" width="200px" alt="aaa">
-      <img class="personaje2" src="../imagenes/personaje2.png" width="200px" alt="aaa">
-      <img class="personaje3" src="../imagenes/personaje3.png" width="200px" alt="aaa">
-      <img class="personaje4" src="../imagenes/personaje4.png" width="200px" alt="aaa">
+      <img class="personaje1" src="../imagenes/personaje1.png" width="200px">
+      <img class="personaje2" src="../imagenes/personaje2.png" width="200px">
+      <img class="personaje3" src="../imagenes/personaje3.png" width="200px">
+      <img class="personaje4" src="../imagenes/personaje4.png" width="200px">
 
         <textarea
         id="textarea"
@@ -45,7 +41,7 @@
         <button class="botonEnviar" onclick="enviar()">Enviar</button>
 
         </div>
-        <h4 style="text-align: center; font-weight: 300; font-size: 20px; margin-top: 50px;line-height: 30px;">
+        <h4 class="correo">
             Mandanos un correo a <br> <b>kittysnack@gmail.com</b>
         </h4>
     </div>
@@ -81,10 +77,10 @@
     <div class="siguenos">
       <h3>Siguenos</h3>
       <div class="imagenes">
-        <a href="https://www.tiktok.com/@kittysepo19"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="https://www.instagram.com/kittysnacks19/"> <i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=61554100510319&mibextid=ZbWKwL"> <i class="fa-brands fa-facebook"></i></a>
-        <a href="https://api.whatsapp.com/send/?phone=5621530248"> <i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@kittysepo19"><img src="../imagenes/tiktok.jpg" width="70px"></a>
+        <a href="https://www.instagram.com/kittysnacks19/"> <img src="../imagenes/instagram.jpg" width="70px"></a>
+        <a href="https://www.facebook.com/profile.php?id=61554100510319&mibextid=ZbWKwL"> <img src="../imagenes/facebook.jpg" width="70px"></a>
+        <a href="https://api.whatsapp.com/send/?phone=5621530248"> <img src="../imagenes/whatsapp.jpg" width="70px"></a>
       </div>
     </div>
 
@@ -99,7 +95,6 @@
     <p class="derechos">Todos los derechos reservados &copy; 2022</p>
   </footer>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
      const enviar= ()=>{
         const mensaje = document.querySelector("#textarea");
@@ -113,5 +108,4 @@
     </script>
     </div>
   </body>
-
   </html>

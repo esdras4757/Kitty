@@ -1,13 +1,9 @@
 <DOCTYPE! html>
   <html>
-
   <head>
     <title>KITTY SNACK´S</title>
     <link rel="stylesheet" href="../Estilos/estilos.css">
     <link rel="stylesheet" href="../Estilos/estilosVision.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
   </head>
 
   <body >
@@ -16,9 +12,9 @@
         <li><a href="../KITTY.html">INICIO</a></li>
         <li ><a href="./menu.html">MENU</a></li>
         <li><a href="./combos.html">COMBOS Y PROMOS</a></li>
-        <li style="background-color: #CDFDF7;"><a href="./vision.html">MISIÓN Y VISIÓN</a></li>
+        <li class="active"><a href="./vision.html">MISIÓN Y VISIÓN</a></li>
         <li><a href="./conocenos.html">CONOCENOS</a></li>
-        <li><a href="./comentarios.html"><i style="font-size: 35px;" class="fa-regular fa-comment-dots"></i></a></li>
+        <li><a class="comentarioIcono" href="../paginas/comentarios.html"><img src="../imagenes/comentario.png" width="30px"/></a></li>
       </ul>
     </nav>
     <header class="cabecera">
@@ -38,11 +34,10 @@
   </div>
 
   <div class="images">
-    <img style="width: 200px;" src="../imagenes/kittycinta.png" alt="">
-    <img style="width: 200px;" src="../imagenes/kuromi.png" alt="">
-    <img style="width: 200px;" src="../imagenes/cinnamoroll.png" alt="">
-    <img style="width: 200px;" src="../imagenes/melody.png" alt="">
-
+    <img style="width: 200px;" src="../imagenes/kittycinta.png">
+    <img style="width: 200px;" src="../imagenes/kuromi.png">
+    <img style="width: 200px;" src="../imagenes/cinnamoroll.png">
+    <img style="width: 200px;" src="../imagenes/melody.png">
   </div>
 
   <footer class="footer">
@@ -74,10 +69,10 @@
     <div class="siguenos">
       <h3>Siguenos</h3>
       <div class="imagenes">
-        <a href="https://www.tiktok.com/@kittysepo19"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="https://www.instagram.com/kittysnacks19/"> <i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=61554100510319&mibextid=ZbWKwL"> <i class="fa-brands fa-facebook"></i></a>
-        <a href="https://api.whatsapp.com/send/?phone=5621530248"> <i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@kittysepo19"><img src="../imagenes/tiktok.jpg" width="70px"></a>
+        <a href="https://www.instagram.com/kittysnacks19/"> <img src="../imagenes/instagram.jpg" width="70px"></a>
+        <a href="https://www.facebook.com/profile.php?id=61554100510319&mibextid=ZbWKwL"> <img src="../imagenes/facebook.jpg" width="70px"></a>
+        <a href="https://api.whatsapp.com/send/?phone=5621530248"> <img src="../imagenes/whatsapp.jpg" width="70px"></a>
       </div>
     </div>
 
@@ -91,35 +86,6 @@
 
     <p class="derechos">Todos los derechos reservados &copy; 2022</p>
   </footer>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper('.swiper-container', {
-        // Parámetros de Swiper
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-
-      var myWave = wavify(document.querySelector('#myId'), {
-        height: 60,
-        bones: 3,
-        amplitude: 40,
-        color: 'rgba(150, 97, 255, .8)',
-        speed: .25
-      })
-    </script>
     </div>
   </body>
-
   </html>

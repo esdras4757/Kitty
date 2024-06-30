@@ -82,51 +82,9 @@
     background-size: contain;
     padding: 25px 35px;
   }
-  
-  .swiper-container {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    border-radius: 60px 0px 60px 0px;
-    box-shadow: 0px 0px 15px rgb(107, 107, 107);
-  }
-  
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    width: 100%;
-    height: 700px;
-    object-fit: fill;
-  }
-  
-  .swiper-button-prev {
-    left: 1% !important;
-    top: 50% !important;
-    background-color: #1d1d1db9;
-    border-radius: 100%;
-    padding: 10px 17px;
-    width: 200px;
-    color: rgb(255, 255, 255);
-  }
-  
-  .swiper-button-next {
-    right: 1% !important;
-    top: 50% !important;
-    background-color: #1d1d1db9;
-    border-radius: 100%;
-    padding: 10px 17px;
-    width: 200px;
-    color: rgb(255, 255, 255);
-  }
-  
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: white !important;
+  .container2 img{
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px gray;
   }
   
   .inicio {
@@ -398,4 +356,9 @@
     text-decoration: none;
     color: white;
   }
+  
+  .hands{
+    position: absolute; top: 0; left: 60%; z-index: -4; opacity: 0.2;
+  }
+
   

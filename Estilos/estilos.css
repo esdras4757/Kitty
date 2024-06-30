@@ -362,3 +362,17 @@ button a {
   text-decoration: white;
   color: white;
 }
+
+.comentarioIcono{
+padding: 0px !important;
+}
+
+.comentarioIcono img{
+  padding-top: 20px !important;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  }
+
+  .active{
+    background-color: #CDFDF7;
+  }

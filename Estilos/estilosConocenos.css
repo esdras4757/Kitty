@@ -29,13 +29,12 @@
  flex-direction: column;
 }
 
-.ConocenosContainer i{
-  font-size: 60px;
-  list-style: none;
-  text-decoration: none;
-  margin: 20px auto;
-  margin-right: 20px;
+.iconos a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
+
 
 .ConocenosContainer a{
   font-size: 28px;
@@ -44,7 +43,9 @@
   color: black;
 }
 
-
+.ConocenosContainer a img{
+  margin-right: 2px;
+}
 
 .badge{
   background-color: #f0a9e3;
